@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+/* Media Responsive */
+@media (max-width: 768px){
+    .rodape img{
+        width: 10%;
+    }
+}
+@media (max-width: 540px){
+    .rodape img{
+        width: 15%;
+    }
+    .col-md-4:not(:last-child){
+        margin-bottom: 0.5rem;
+    }
+    #carouselExampleIndicators img{
+        width: 14rem;
+    } 
+    #form-row p, input, textarea{
+        width: 180% !important;
+        margin-left: -4rem !important;
+    }
+}
+@media (max-width: 411px), (max-width: 414px){
+    .rodape img{
+        width: 20%;
+    }
+    .col-md-4:not(:last-child){
+        margin-bottom: 0.5rem;
+    }
+    #form-row p, input, textarea{
+        width: 190% !important;
+        margin-left: -3.5rem !important;
+    }
+}
+@media (max-width: 360px), (max-width: 375px){
+    .rodape img{
+        width: 15%;
+    }
+    .col-md-4:not(:last-child){
+        margin-bottom: 0.5rem;
+    }
+    #carouselExampleIndicators img{
+        width: 14rem;
+    } 
+    #form-row p, input, textarea{
+        width: 183% !important;
+        margin-left: -2.5rem !important;
+    }
+    .btnrounded{
+        width: 120% !important;
+    }
+}
+@media (max-width: 320px){
+    .rodape img{
+        width: 15%;
+    }
+    .col-md-4:not(:last-child){
+        margin-bottom: 0.5rem;
+    }
+    #carouselExampleIndicators img{
+        width: 14rem;
+    } 
+    #form-row p, input, textarea{
+        width: 190% !important;
+        margin-left: -2.5rem !important;
+    }
+    .btnrounded{
+        width: 130% !important;
+    }
+}
+@media (max-width: 280px){
+    .rodape img{
+        width: 25%;
+    }
+    .col-md-4:not(:last-child){
+        margin-bottom: 0.5rem;
+    }
+    #carouselExampleIndicators img{
+        width: 10rem;
+    }
+    #form-row p, input, textarea{
+        width: 190% !important;
+        margin-left: -2rem !important;
+    } 
+    .btnrounded{
+        margin-left: -30% !important;
+        width: 160% !important;
+    }
+}
+/*Cofig Pagina*/
+*{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+body hr{
+    margin-left: 30%;
+    width: 40%;
+}
+/*Imagem Home*/
+.banner{
+    position:relative;
+    top: -30px;
+    height: 100%;
+}
+.banner img{
+    width: 100%;
+}
+#navbarSite a{
+    margin-left: 80px;
+    display: block;
+}
+.nav-item a:hover{
+    text-decoration: underline;
+    color: rgb(172, 172, 187);
+}
+.navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+    border-right: 2px solid #000000;
+    padding-right: 65%;
+    
+}
+/*Conteúdo*/
+.container img{
+    border-radius: 2%;
+}
+.card{
+    height: 100%;
+    min-height: 150px;
+}
+/*Sobre*/
+.sobre img{
+    border-radius: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+/*Contato*/
+.contato{
+    margin-left: 200%;
+}
+#form-row{
+    justify-content: center;
+}
+#form-row input, textarea{
+    width: 100%;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+textarea{
+    resize: none!important;
+}
+/*Galeria*/
+.carousel-control-prev-icon{
+    background-color: #505050;
+}
+.carousel-control-next-icon{
+    background-color: #505050;
+}
+#carouselExampleIndicators img{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+#galeria img{
+    padding: 4% 2%;
+}
+/*Botoes*/
+.btnrounded{
+    border-radius: 50px!important;
+    width: 100%;
+    margin-top: 2%;
+}
+.btnrounded2{
+    border-radius: 50px!important;
+}
+/*Rodape*/
+.rodape {
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+}
+.rodape a{
+    color:white;
+}
+        
